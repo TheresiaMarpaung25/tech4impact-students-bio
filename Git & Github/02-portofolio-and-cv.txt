@@ -1,0 +1,20 @@
+$ echo Ini adalah file CV > cv.txt
+$ git add cv.txt
+$ git commit -m "Inisialisasi CV"
+$ git touch perusahaan.txt
+$ echo Bank Indonesia > perusahaan.txt
+$ git add perusahaan.txt
+$ git commit -m "Bank Indonesia"
+$ echo Google >> perusahaan.txt
+$ git add perusahaan.txt
+$ git commit -m "Google"
+$ echo Shopee >> perusahaan.txt
+$ git add perusahaan.txt
+$ git commit -m "Shopee"
+
+$ git checkout master
+$ echo Ini adalah update pertama pada branch master >> README.md
+$ git add README.md
+$ git commit -m "update master pertama"
+$ git merge cv
+$ git commit -m "merge"
